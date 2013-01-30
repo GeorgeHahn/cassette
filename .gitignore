@@ -13,3 +13,4 @@ src/**/*.nuspec
 *.orig
 src/packages
 cassette-cache
+*_NCrunch_*
