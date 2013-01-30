@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Cassette.IO
 {
-    class NonExistentFile : IFile
+    public class NonExistentFile : IFile
     {
         readonly string filename;
 

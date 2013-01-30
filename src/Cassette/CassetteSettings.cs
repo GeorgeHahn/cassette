@@ -18,7 +18,7 @@ namespace Cassette
             ApplyConfigurations(configurations);
         }
 
-        internal CassetteSettings() // Tests don't usually need to specify configurations, so give them a default constructor to use.
+        public CassetteSettings() // Tests don't usually need to specify configurations, so give them a default constructor to use.
             : this(Enumerable.Empty<IConfiguration<CassetteSettings>>())
         {
         }
